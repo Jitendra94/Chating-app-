@@ -138,6 +138,7 @@ body {
     display: inline;
     margin:0 1%;
     opacity: 0.4;
+    margin-top: 0.8%
 }
 .msgP{
     width: 525px;
@@ -146,7 +147,27 @@ body {
     font-family: helvetica, arial, sans-serif;
     padding-left: 2%;
     margin-top: 0;
+
 }
+
+.msgRightH4{
+    display: inline;
+    float: right;
+}
+.msgRighti{
+    display: inline;
+    float: left;
+}
+.msgRightTime{
+    display: inline;
+    float: left;
+}
+.msgRightP{
+    float: right;
+    margin-right: 2% ;
+}
+
+
 .msgTextarea{
     width: 585px;
     resize: none;
@@ -193,6 +214,7 @@ p{
     font-size: 14px;
     font-size: 0.875rem;
     color: black;
+
 }
 textarea:focus{
     outline: none !important;
@@ -271,7 +293,7 @@ ul li i {
     display: block;
     cursor: pointer;
     color: #6d6e64;
-    cursor: pointer;
+
 
 }
 i:hover {
@@ -288,4 +310,14 @@ ul li img {
 }
 h1,h2,h5,span,li {
     color:#3b5998;
+}
+
+h4,label{
+    font-family: "Lava","Harir Regular",Times New Roman,Georgia,serif;
+    font-style: Normal;
+    color:#3b5998;
+   /* font-weight: 600;*/
+    /*font-stretch: normal;*/
+   /* font-size:30px;*/
+    line-height: 1.4565384;
 }
